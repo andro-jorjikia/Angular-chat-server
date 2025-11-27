@@ -2,7 +2,7 @@ const WebSocket = require('ws');
 
 // allow overriding the port via environment (useful during development)
 
-const PORT = process.env.PORT || 9000;
+const PORT = process.env.PORT || 8080;
 
 // create the WebSocket server and log once it's actually listening
 
